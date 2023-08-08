@@ -2,14 +2,17 @@ body{
     background-color: #f7fbff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+html{
+    font-size: 15px;
+}
 .heading{
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: rgb(64, 26, 100);
     font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .mainContainer{
     position: relative;
@@ -22,8 +25,8 @@ body{
     gap: 25px;
 }
 .item{
-    width: 350px;
-    height: 470px;
+    width: 340px;
+    height: 440px;
     border: 3px solid rgb(224, 224, 224);
     background-color: #ffffff;
     border-radius: 0.5rem;
@@ -36,7 +39,7 @@ body{
     transform: translateY(-25px);
 }
 .itemHeading{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: rgb(64, 26, 100);
     font-weight: 450;
     position: relative;
@@ -114,8 +117,8 @@ li:before {
     height: 50px;
     border-radius: 0.33rem;
     position: relative;
-    top: 90px;
-    left: 95px;
+    top: 75px;
+    left: 92px;
     color: #0abf53;
     font-size: 1.1rem;
 }
